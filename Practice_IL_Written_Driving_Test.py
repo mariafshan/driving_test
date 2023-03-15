@@ -13,7 +13,7 @@ def generate_questions(questions, answers, random_array, num_practice_questions)
 
     for i in random_array:
         n_completed_questions += 1
-        print(str(n_completed_questions), "out of", num_practice_questions)
+        print("Question", str(n_completed_questions), "out of", num_practice_questions)
         print(questions[i])
 
         user_answer = str(input("Answer: ")).lower()
